@@ -1,0 +1,52 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+    - '.git/**/*'
+  TargetRubyVersion: 2.3
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Layout/LineLength:
+  Enabled: true
+
+Metrics/MethodLength:
+  Max: 15
+
+Naming/PredicateName:
+  AllowedMethods:
+    - is_a?
+    - has_one
+    - has_many
+
+Style/AndOr:
+  EnforcedStyle: conditionals
+
+Style/BlockDelimiters:
+  Enabled: true
+  EnforcedStyle: semantic
+  IgnoredMethods:
+    - lambda
+    - proc
+    - it
+    - link
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+Style/Lambda:
+  Enabled: false
+  EnforcedStyle: literal
+
+Style/LambdaCall:
+  EnforcedStyle: braces
+

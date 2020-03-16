@@ -1,0 +1,7 @@
+{
+    "ruby.rubocop.configFilePath": ".rubocop.yml",
+    "ruby.rubocop.executePath": "./bin/",
+    "ruby.format": "rubocop",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.codeCompletion": "rcodetools"
+}
